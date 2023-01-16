@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comics",
+  "info": {
+    "singularName": "comic",
+    "pluralName": "comics",
+    "displayName": "comic"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "is_on_my_collection": {
+      "type": "boolean"
+    },
+    "custom_switch": {
+      "type": "customField",
+      "customField": "plugin::custom-switch-field.switch"
+    }
+  }
+}
